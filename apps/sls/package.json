@@ -4,7 +4,7 @@
   "main": "serverless.ts",
   "private": true,
   "scripts": {
-    "dev": "sls offline --stage local --httpPort 5050",
+    "dev": "sls offline --stage local --httpPort 4000",
     "deploy:dev": "sls deploy --stage dev",
     "deploy:prd": "sls deploy --stage prd"
   },
